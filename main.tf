@@ -3,3 +3,9 @@ resource "local_file" "demo" {
   content = "This is for demo"
   
 }
+
+resource "azurerm_resource_group" "rg" {
+  name     = "Demo"
+  location = "canadacentral"
+
+}
